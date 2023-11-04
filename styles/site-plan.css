@@ -62,7 +62,7 @@ header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
 .logo{
-  
+  width: 20%;
 }
 p {
   font-family: var(--paragraph-font);
