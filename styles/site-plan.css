@@ -64,6 +64,9 @@ header > h1, header > h2 {
 .logo{
   width: 20%;
 }
+.sample_img{
+  width: 50%;
+}
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
