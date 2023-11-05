@@ -65,7 +65,7 @@ header > h1, header > h2 {
   width: 20%;
 }
 .sample_img{
-  width: 5%;
+  width: 50%;
 }
 p {
   font-family: var(--paragraph-font);
