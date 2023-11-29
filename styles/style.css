@@ -98,94 +98,86 @@ main section img {
     grid-row: 4/9;
 }
 
-.bolly-img {
-    margin: 100px 0;
-    width: 32%;
-    box-shadow: 5px 5px 10px #172C51;
-}
-
-.yoga-img {
-    margin: 100px 0;
-    width: 30%;
-    box-shadow: 5px 5px 10px #172C51;
-}
-
-.msg{
-    background-color: white;
-    padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
-    box-shadow: 5px 5px 10px #6f7364;
-}
-
-.msg h2{
-    background-color: #F78E60;
-    color: black;
-}  
-.msg p{
-    background-color: #20AB98;
-    color:white;
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: .8em;
-    background-color: #6f7364;
-    line-height: 1.5em;
-    padding-bottom: 15px
-}  
-
 
 
 /* STUFF I'VE ADDED (NB) */
 
 .bolly {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 65%;
     background-color: #f8cb44;
     height: 500px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
-.bolly img {
+
+.bolly-img {
+    margin: 30px 0;
+    width: 75%;    
+    box-shadow: 5px 5px 10px #172C51;
     grid-column: 1/2;
-    grid-row: 1/4;
-    justify-self: center;
-    align-self:baseline;
+    grid-row: 1/4;    
+    justify-self: right;
+    align-self: center;
 }
+
 
 .bolly h2 {
     grid-column: 2/3;
     grid-row: 1/2;
     color: #172C51;
+    margin: 50px 0;
+    margin-right: 200px;
+    text-align: left;
+    padding-bottom: 0%;
 }
 
 .bolly p {
     grid-column: 2/3;
     grid-row: 2/4;
     color: #172C51;
+    text-align: left;
+    margin: 0% aut0;
+    padding-top: 0%;
 }
 
 .yoga {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 65% 1fr;
     background-color: #e84e36;
     height: 500px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .yoga img {
+    margin: 30px 0;
+    width: 75%;
+    box-shadow: 5px 5px 10px #172C51;
     grid-column: 1/2;
     grid-row: 1/4;
-    justify-self: center;
+    justify-self: left;
     align-self: center;
 }
 
 .yoga h2 {
     grid-column: 2/3;
     grid-row: 1/2;
-    color: white;
+    color: white;    
+    margin: 50px 0;
+    margin-left: 200px;
+    text-align: right;
+    padding-bottom: 0%;
 }
 
 .yoga p {
     grid-column: 2/3;
     grid-row: 2/4;
-    color: white;
+    color: white;    
+    text-align: right;
+    margin: 0% aut0;
+    padding-top: 0%;
 }
 
 
@@ -203,12 +195,15 @@ main section img {
     grid-row: 2/4;
 }
 
-.joinus-msg {
+.standout {
     background-color: white;
+    color: #172C51;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.joinus-msg p {
-    color: #e84e36;
+.standout p {
+    color: #172C51;
 }
 
 
