@@ -46,40 +46,13 @@
           <span class="dot" onclick="currentSlide(3)"></span> 
         </div>
         
-        <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
         
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-        }
-        </script>
         <section id="hero-msg">
             <h1 class="home-title">Mudra Fitness</h1>
         </section>
     </div>
 
-    <main>
+    <main class="home-main">
         <p>
             Welcome to Mudra Fitness – Where Bollywood meets Zumba and Yoga to redefine your fitness journey! At Mudra Fitness, we believe that fitness should be an exhilarating and joyful experience. We have crafted a unique and engaging approach to wellness that seamlessly fuses the vibrant energy of Bollywood dance with the exhilaration of Zumba, while also embracing the serenity of yoga to bring calmness, relaxation, and meditation into your daily routine.
         </p>
@@ -127,5 +100,33 @@
             </a>
         </div>
     </footer>
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
 </body>
 </html>

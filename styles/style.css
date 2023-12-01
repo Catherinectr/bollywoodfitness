@@ -156,7 +156,7 @@ img {vertical-align: middle;}
     text-align: center;
 }  
 
-main p {
+.home-main p {
     color: #f8cb44;
     padding: 35px;
     text-align: center;
@@ -397,6 +397,10 @@ footer .social img   {
 
 /* PAGE 3 - JOIN US */
 
+.join-main {
+    padding: 0;
+    text-align: left;
+}
 h2{
     margin-top: 1em;
     text-align: center;
@@ -439,7 +443,7 @@ form {
     width: 550px;
     text-align: left;
     color: white;
-    text-align: center;
+    /* text-align: center; */
   }
   
   input,
@@ -449,11 +453,14 @@ form {
     font: 1em sans-serif;
   
     /* Uniform text field size */
-    width: 300px;
     box-sizing: border-box;
   
     /* Match form field borders */
     border: 1px solid #999;
+  }
+
+  fieldset p input {
+    text-align: left;
   }
   
   input:focus,
@@ -472,22 +479,24 @@ form {
   
   .button {
     /* Align buttons with the text fields */
-    padding-left: 250px; /* same size as the label elements */
+    padding-left: 5%; /* same size as the label elements */
   }
   
   button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
+    background-color: #f8cb44;
     
     font-size: large;
   }
   
   #feedback {
     background-color: antiquewhite;
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
+    text-align: center;
     padding: .5em;
     /* make this element invisible until we are ready for it */
     display: none;      
