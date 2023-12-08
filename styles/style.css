@@ -228,7 +228,7 @@ main section img {
     grid-row: 2/4;
     color: #172C51;
     text-align: left;
-    margin: 0% aut0;
+    margin: 0% auto;
     padding-top: 0%;
 }
 
@@ -266,7 +266,7 @@ main section img {
     grid-row: 2/4;
     color: white;    
     text-align: right;
-    margin: 0% aut0;
+    margin: 0% auto;
     padding-top: 0%;
 }
 
