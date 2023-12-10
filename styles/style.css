@@ -161,6 +161,9 @@ img {vertical-align: middle;}
     padding: 35px;
     text-align: center;
 }
+.welcome p {
+    color: #172C51;
+}
 
 main h2 {
     color: #f8cb44;
